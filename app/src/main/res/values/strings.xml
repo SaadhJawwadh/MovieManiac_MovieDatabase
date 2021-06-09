@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Movie Maniac</string>
+    <string name="b1">Register</string>
+    <string name="b2">Display</string>
+    <string name="b3">Favourite</string>
+    <string name="b4">Edit</string>
+    <string name="b5">Search</string>
+    <string name="b6">Ratings</string>
+    <string name="MovieDB">Movie.db</string>
+    <string name="addD">ADD</string>
+    <string name="register_product_string">Register Movie</string>
+    <string name="name">Title</string>
+    <string name="weight">Year</string>
+    <string name="price">Director</string>
+    <string name="description">movieCast</string>
+    <string name="submitr">save</string>
+    <string name="regiter_movie">Register Movie</string>
+    <string name="title">Title:</string>
+    <string name="rating">Rating:</string>
+    <string name="review">Review:</string>
+    <string name="year">Year:</string>
+    <string name="director">Director:</string>
+    <string name="cast">Cast:</string>
+    <string name="update">Update</string>
+    <string name="favorite">Favorite:</string>
+    <string name="save">Save</string>
+    <string name="type_here">Type Here</string>
+    <string name="look_up">Look Up</string>
+    <string name="enter_a_movie_director">Movie/Director/Cast</string>
+    <string name="enter_movie_title">Enter movie title</string>
+    <string name="enter_the_year_of_release">Enter release year</string>
+    <string name="enter_the_name_of_director">Enter the Director</string>
+    <string name="enter_cast">Enter cast</string>
+    <string name="rate_the_movie_1_10">Rate the movie(1-10)</string>
+    <string name="enter_your_review">Enter your review</string>
+</resources>

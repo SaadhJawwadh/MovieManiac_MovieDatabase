@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.madcw02">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MADCW02">
+        <activity
+            android:name=".EditMovie"
+            android:label="EditMovie"
+            android:parentActivityName=".Edit">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcw02.Edit" />
+        </activity>
+
+        <activity
+            android:name=".Register"
+            android:label="Register"
+            android:parentActivityName=".MenuScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcw02.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="Search"
+            android:parentActivityName=".MenuScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcw02.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".Edit"
+            android:label="Edit"
+            android:parentActivityName=".MenuScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcw02.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".Favourites"
+            android:label="Favourites"
+            android:parentActivityName=".MenuScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcw02.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".Display"
+            android:label="Display"
+            android:parentActivityName=".MenuScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcw02.MenuScreen" />
+        </activity>
+        <activity
+            android:name=".Ratings"
+            android:label="Ratings"
+            android:parentActivityName=".MenuScreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.madcw02.MenuScreen" />
+        </activity>
+        <activity android:name=".MenuScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
